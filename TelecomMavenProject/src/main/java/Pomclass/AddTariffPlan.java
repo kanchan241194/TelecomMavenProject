@@ -1,0 +1,24 @@
+package Pomclass;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class AddTariffPlan {
+
+	@FindBy(xpath="//a[text()=\"Add Tariff Plan\"]") private WebElement pclick;
+	
+
+	public AddTariffPlan (WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	public void AddTariffPlanpclick()
+	{
+		pclick.click();
+	}
+
+}
