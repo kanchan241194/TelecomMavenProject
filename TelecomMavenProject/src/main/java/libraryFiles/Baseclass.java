@@ -19,7 +19,7 @@ public class Baseclass {
 	public  WebDriver driver;
 	public  void initialbroser() throws IOException, InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\eclipse-workspace2\\TelecomMavenProject\\Browser\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\git\\TelecomMavenProject\\.git\\TelecomMavenProject\\Browser\\chromedriver.exe");
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("disable-extensions");
 		opt.addArguments("--start-maximized");
