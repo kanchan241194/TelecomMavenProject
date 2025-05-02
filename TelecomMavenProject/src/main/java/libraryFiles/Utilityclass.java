@@ -31,7 +31,7 @@ public class Utilityclass {
 	   }
 	public static String getpfdata(String key) throws IOException
 	{
-		FileInputStream file= new FileInputStream("C:\\Users\\admin\\eclipse-workspace2\\TelecomMavenProject\\property2.properties");
+		FileInputStream file= new FileInputStream("C:\\Users\\admin\\git\\TelecomMavenProject\\.git\\TelecomMavenProject\\property2.properties");
 		Properties p= new Properties();
 		p.load(file);
 		String value = p.getProperty(key);
